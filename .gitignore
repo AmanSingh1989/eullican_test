@@ -1,2 +1,4 @@
 */bin/*
-.settings
+/.settings/*
+/target/*
+target/classes/META-INF/maven/eullican/test/pom.properties
