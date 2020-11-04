@@ -23,13 +23,10 @@ public class SingleSortedLinkedList<T extends Comparable<T>> implements Iterable
 		this.condition=0;
 	}
 	
-	public int getSize() {
+	public int size() {
 		return size;
 	}
 
-	public void setSize(int size) {
-		this.size = size;
-	}
 
 	/**
 	 *

@@ -9,10 +9,11 @@ public class MainClass{
         checkString();
         checkInteger();
 
+        System.out.println(new Integer(null).compareTo(2));
     }
 
 	private static void checkString() {
-		SingleSortedLinkedList<String> test= new SingleSortedLinkedList<>(1);
+		SingleSortedLinkedList<String> test= new SingleSortedLinkedList<>(0);
 
         test.addElement("Deepak");
         test.addElement("Aman");
@@ -27,7 +28,7 @@ public class MainClass{
 	}
 	
 	private static void checkInteger() {
-		SingleSortedLinkedList<Integer> test= new SingleSortedLinkedList<>();
+		SingleSortedLinkedList<Integer> test= new SingleSortedLinkedList<>(1);
 
         test.addElement(2);
         test.addElement(3);
