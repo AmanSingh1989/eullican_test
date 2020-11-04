@@ -1,4 +1,4 @@
-# eullican_tet
+# eullican_test_code
 
 SingleSortedLinkedList is implementation for singly linked sorted collection
 
